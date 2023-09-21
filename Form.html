@@ -27,7 +27,7 @@ Are you alive?
 <!--Checkboxes must have different names and id's. Unlike radio buttons
     multiple can be selected.
 -->
-Check all of the following that apply: <br />
+Check all the following that apply: <br />
     <input type="checkbox" name="webDesign" value="Web Design" id="webDesign">
     <label for="webDesign">Web Design</label><br />
 
@@ -38,6 +38,20 @@ Check all of the following that apply: <br />
 
     <input type="checkbox" name="cybersecurity" value="Cybersecurity" id="CyberSecurity">
     <label for="cybersecurity">Cybersecurity</label><br /><br />
+
+
+    <!-- Textareas are places where you can type more than one line -->
+    <textarea name="comments" rows="20" cols="50">
+    This is where you put your comments on this form. Feel free to delete this text and have at it!
+    </textarea><br /><br />
+
+    <select name="numbers" id="numbers">
+        <option value="One">One</option>
+        <option value="Two">Two</option>
+        <option value="Three">Three</option>
+        <option value="Four">Four</option>
+    </select>
+
 
     <!-- Submit buttons send form data to the action page to be processed -->
     <input type="submit" value="Take my data!" />
